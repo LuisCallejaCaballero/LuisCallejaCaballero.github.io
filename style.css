@@ -18,7 +18,7 @@ h1, h2, h3 {
     top: 0;
     left: 0;
     z-index: 100;
-    padding: 10px;
+    padding: 1em;
 }
 
 #navbar ul {
@@ -30,13 +30,13 @@ h1, h2, h3 {
 }
 
 #navbar li {
-    margin: 0 15px;
+    margin: 0 1em;
 }
 
 #navbar a {
     color: white;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 1.5em;
 }
 
 /* Sección de bienvenida */
@@ -64,17 +64,17 @@ h1, h2, h3 {
 
 /* Sección de proyectos */
 #projects {
-    padding: 50px 20px;
+    padding: 3em 2em;
     background-color: #e9e9e9;
     text-align: center;
 }
 
 .project-tile {
     background-color: white;
-    margin: 20px;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 2em;
+    padding: 2em;
+    border-radius: 3em;
+    box-shadow: 0 0.5em 0.8em rgba(0, 0, 0, 0.1);
 }
 .p1{
     background-image: url("img/inTrenchTime2.png");
@@ -91,7 +91,7 @@ h1, h2, h3 {
 }
 
 .project-tile a {
-    color: #007BFF;
+    color: #3794f8;
     text-decoration: none;
     font-weight: bold;
 }
@@ -103,7 +103,9 @@ footer {
     background-color: #333;
 }
 
-#profile-link {
+footer a {
+    display: inline-flex;
+    flex-direction: column;
     color: white;
     text-decoration: none;
     font-size: 1rem;
@@ -117,7 +119,7 @@ footer {
     }
 
     #navbar li {
-        margin: 10px 0;
+        margin: 3em 0;
     }
 
     #welcome-section h1 {
@@ -125,7 +127,7 @@ footer {
     }
 
     .project-tile {
-        margin: 10px;
-        padding: 15px;
+        margin: 2em;
+        padding: 3em;
     }
 }
