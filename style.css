@@ -144,4 +144,16 @@ footer p{
         border: 0.3em solid #333;
     
     }
+    #navbar {
+        background-color: #333;
+        position: fixed;
+        width: 100%;
+        top: 0;
+        left: 0;
+        z-index: 100;
+        padding: 0.3em;
+    }
+    #navbar a {
+        font-size: 0.7em;
+    }
 }
