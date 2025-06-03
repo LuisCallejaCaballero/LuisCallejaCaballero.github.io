@@ -7,22 +7,60 @@
     <title>Mi Portafolio</title>
     <link rel="icon" type="jpg" href="img/LogoLcc.jpg">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 
 <body>
     <!-- Barra de navegación -->
     <nav id="navbar">
-        <ul>
-            <li><a href="#welcome-section">Curriculo</a></li>
-            <li><a href="#projects">Proyectos</a></li>
-            <li><a href="#about">Acerca de mí</a></li>
-        </ul>
+        <div class="menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="nav-links">
+            <ul>
+                <li><a href="#welcome-section">Acerca de mí</a></li>
+                <li><a href="#projects">Proyectos</a></li>
+                <li><a href="#footer">Contacto</a></li>
+            </ul>
+        </div>
     </nav>
 
     <!-- Sección de bienvenida -->
     <section id="welcome-section">
-        <h1>Mi Curriculo</h1>
-        <img src="img/CV.png" alt="SI">
+        <div class="about-container">
+            <div class="profile-image">
+                <img src="img/yoMismo.JPG" alt="Perfil">
+            </div>
+            <div class="about-content">
+                <h1>Sobre mí</h1>
+                <p class="title">Desarrollador Full Stack</p>
+                <p class="description">Después de terminar el bachillerato, empecé mis estudios en el grado medio de Sistemas Microinformáticos y Redes (ASIX), lo que despertó mi interés por el mundo de la tecnología. Esta experiencia me llevó a especializarme en desarrollo, primero a través del grado superior de Desarrollo de Aplicaciones Multiplataforma (DAM) y más adelante en programación orientada a videojuegos.
+
+Complementé mi formación técnica con un bootcamp de UX/UI, centrado en el diseño de interfaces, lo que me ha permitido entender mejor la experiencia del usuario y aplicar esa perspectiva en el desarrollo de productos más intuitivos y funcionales.
+
+He trabajado con tecnologías como React, React Native y Android Studio, y tengo experiencia con lenguajes como Java, C#, C++ y Python, lo que me permite abordar tanto desarrollo de aplicaciones móviles como de escritorio o videojuegos.
+
+A lo largo de este camino he aprendido a trabajar en equipo, a gestionar la presión de los plazos y a adaptarme a distintos entornos de trabajo. Me considero una persona abierta al cambio, con muchas ganas de seguir creciendo y aprendiendo. Soy comunicativo, proactivo, organizado y tengo una gran capacidad de adaptación. Me gusta colaborar, compartir ideas y resolver problemas de forma creativa.
+
+Mi objetivo profesional es seguir desarrollándome en cualquier área del desarrollo o del diseño, ya que me interesa todo lo que tenga que ver con la tecnología y la creación de soluciones digitales.
+
+Mi filosofía es clara: “Adelante y sin miedo”.</p>
+                <div class="skills">
+                    <h3>Habilidades principales:</h3>
+                    <ul>
+                        <li>Desarrollo en Unity</li>
+                        <li>Desarrollo Web</li>
+                        <li>Desarrollo de Aplicaciones Multiplataforma</li>
+                        <li>Desarrollo de aplicaciones Mobil</li>
+                        <li>JavaScript/HTML/CSS</li>
+                        <li>Java/C++/C#/Python</li>
+                        <li>Git/GitHub</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </section>
 
     <!-- Sección de proyectos -->
@@ -54,13 +92,42 @@
         </div>
     </section>
 
-    <!-- Enlace al perfil de GitHub -->
-    <footer id="about">
-        <a id="profile-link" href="https://github.com/LuisCallejaCaballero" target="_blank">Mi GitHub</a>
-<br>
-        <a id="profile-link" href="https://www.linkedin.com/in/luis-calleja-caballero-0b5208312/" target="_blank">Mi LinkedIn</a>
-        <p>Correo: tepeleno2002@hotmail.es</p>
-        <p>Tlf: <Tlf:>653 84 74 38</Tlf:></p>
+
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="footer-content">
+            <div class="social-links">
+                
+                <div class="social-icons">
+                    <a href="https://github.com/LuisCallejaCaballero" target="_blank" class="github">
+                        <span>GitHub</span>
+                    </a>
+                    <a href="https://www.linkedin.com/in/luis-calleja-caballero-0b5208312/" target="_blank" class="linkedin">
+                        <span>LinkedIn</span>
+                    </a>
+                </div>
+            </div>
+            <div class="contact-info">
+                <h3>Contacto</h3>
+                <ul>
+                    <li>tepeleno2002@hotmail.es</li>
+                    <li>653 84 74 38</li>
+                </ul>
+            </div>
+            <div class="cv-section">
+                <h3>Curriculum</h3>
+                <div class="download-cv">
+                    <a href="./cv/LuisCallejaCaballeroCurriculo.pdf" download class="download-btn">
+                        <i class="fas fa-download"></i>
+                        Descargar CV
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Luis Calleja Caballero. Todos los derechos reservados.</p>
+        </div>
     </footer>
 </body>
 
